@@ -9,8 +9,8 @@ package](https://packages.debian.org/search?keywords=cc65).
 
 I also included the NMI and IRQ vectors to fully flesh out the 6502 vectors
 table.  This feels more correct, at least because now the vector table starts
-at $fffa (its actual starting location) rather than $fffc (the location of the
-reset vector entry).
+at `$fffa` (its actual starting location) rather than `$fffc` (the location of
+the reset vector entry).
 
 The 6522 I/O port controller is referenced using symbolic names (e.g. `io_b`)
 rather than address literals (e.g. `$6000`).
